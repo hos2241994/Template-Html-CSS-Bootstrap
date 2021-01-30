@@ -1,0 +1,167 @@
+/*NavBar*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar-default {
+    background-color: #ffffff;
+    border: none; 
+}
+
+.navbar-default .navbar-brand {
+    color: #a67ecf;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:hover {
+    color: #a67ecf;
+}
+
+.navbar-default .navbar-nav{
+    text-align: center;
+}
+
+.navbar-default .navbar-nav>li>a {
+    display: inline-block;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover{
+    color: #a67ecf;
+}
+
+/*About Section*/
+section.about {
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+}
+
+section.about div.narrow h1,
+section.product div.narrow h1 {
+    font-size: 2em;
+    color: #a67ecf;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+section.about div.narrow  p,
+section.product div.narrow p{
+    color: #888888;
+    line-height: 1.8;
+}
+
+section.about img {
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+section.about div.img {
+    position: relative;
+    background-image: url('/Images/work-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 480px;
+}
+
+section.about div.img p {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+/*Service Section*/
+section.service {
+    position: relative;
+    margin-top: 7%;
+    width: 100%;
+    height: 400px;
+    background-image: url('../Images/intro.jpg');
+    background-attachment: fixed;
+    background-position: center;
+}
+
+section.service p {
+    position: absolute;
+    font-size: 1em;
+    border: 1px solid #ffffff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2%;
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+/*product Section*/
+section.product {
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+}
+
+section.product img {
+    width: 100%;
+}
+
+/*Section Choose*/
+section.choose {
+    width: 100%;
+    height: auto;
+    background-color: rgba(45,45,45,0.07);
+}
+
+section.choose div i {
+    float: left;
+    position: relative;
+    width: 20%;
+    margin-top: 50px;
+}
+
+section.choose div.choose-info {
+    float: left;
+    width: 70%;
+    margin-left: 10%;
+}
+
+section.choose div.choose-info  h2 {
+    color: #a67ecf;
+    text-transform: uppercase;
+}
+
+section.choose div.choose-info p {
+    font-size: 1.2em;
+    line-height: 1.3;
+    color: #888888;
+}
+
+/*footer*/
+footer {
+    margin: 20px 0;
+}
+
+footer i {
+    border-radius: 50%;
+    background-color: #888888;
+    padding: 10px;
+    cursor: pointer;
+    color: #f9f9f9;
+}
+
+footer p{
+    color: #888888;
+    font-size: 18px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
